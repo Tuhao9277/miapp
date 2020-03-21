@@ -1,0 +1,122 @@
+.type {
+  margin: 80px 0 0 21px;
+
+  h4 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .typeContainer {
+    overflow-x: auto;
+
+    ul {
+      padding: 40px 0 50px 0;
+      height: 200px;
+      display: flex;
+
+      li {
+        height: 100%;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        background: #fff;
+        padding-left: 130px;
+        padding-right: 2rem;
+        margin-right: 20px;
+        box-shadow: -0.01rem 0.1rem 0.29rem 0 rgba(171, 163, 72, 0.2);
+        .type-icon{
+          display: inline-block;
+          width: 97px;
+          height: 97px;
+          background-size: cover;
+        }
+
+        &.active {
+          background: #27ba8b;
+          color: #fff;
+
+          &.sleep {
+            .type-icon {
+              background-image: url('./img/sleep-active.png');
+            }
+          }
+
+          &.leave {
+            .type-icon {
+              background-image: url('./img/leaveroom-active.png');
+
+            }
+          }
+          &.clean {
+            .type-icon {
+              background-image: url('./img/clean-active.png');
+  
+            }
+          }
+          &.cinema {
+            .type-icon {
+              background-image: url('./img/movie-active.png');
+  
+            }
+          }
+        }
+
+        &.sleep {
+          .type-icon {
+            background-image: url('./img/sleep.png');
+
+          }
+        }
+
+        &.leave {
+          .type-icon {
+            background-image: url('./img/leaveroom.png');
+
+          }
+        }
+        &.clean {
+          .type-icon {
+            background-image: url('./img/clean.png');
+
+          }
+        }
+        &.cinema {
+          .type-icon {
+            background-image: url('./img/movie.png');
+
+          }
+        }
+        .type-name {
+          width: 100px;
+          font-size: 42px;
+          
+        }
+
+       
+      }
+    }
+
+  }
+
+  .typeContainer::-webkit-scrollbar {
+    display: none
+  }
+
+}
+
+.add {
+  width: 48px;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.type-title {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}

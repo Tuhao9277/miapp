@@ -1,0 +1,17 @@
+.back-add{
+  display: flex;
+  align-items: center;
+  padding: 86px 22px 39px;
+  color: #000;
+  .back{
+    flex: 1;
+    font-size: 60px;
+  }
+  .weeks{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #27ba8b;
+    color: #fff;
+  }
+
+}

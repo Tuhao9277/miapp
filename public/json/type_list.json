@@ -1,0 +1,92 @@
+{
+	"code": "0",
+	"msg": "成功",
+	"data": {
+		"category_list": [
+			{
+				"id": 1,
+				"name": "电源开关",
+				"sub_list": [
+					{
+						"equid": "100001",
+						"name": "米家智能插座",
+            			"status": false,
+						"img_url": "../img/power@2x.png"
+					},
+					{
+						"equid": "100002",
+						"name": "Gosund智能插座",
+            			"status": false,
+						"img_url": "../img/power@2x.png"
+					},
+					{
+						"equid": "100003",
+						"name": "小米智能插座",
+            			"status": false,
+						"img_url": "../img/power@2x.png"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"name": "电源开关",
+				"sub_list": [
+					{
+						"equid": "200001",
+						"name": "米家中央吊灯",
+            			"status": false,
+						"img_url": "../img/light.png"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "空调",
+				"sub_list": [
+					{
+						"equid": "300001",
+						"name": "智米变频空调",
+            			"status": false,
+						"img_url": "../img/air.png"
+					},
+					{
+						"equid": "300002",
+						"name": "米家智能空调",
+            			"status": false,
+						"img_url": "../img/air.png"
+					},
+					{
+						"equid": "300003",
+						"name": "米家立式空调",
+            			"status": false,
+						"img_url": "../img/air.png"
+					}
+				]
+			},
+			{
+				"id": 4,
+				"name": "空气净化器",
+				"sub_list": [
+					{
+						"equid": "400001",
+						"name": "小米空气净化器",
+            			"status": false,
+						"img_url": "../img/pm.png"
+					}
+				]
+			},
+			{
+				"id": 5,
+				"name": "生活电器",
+				"sub_list": [
+					{
+						"equid": "500001",
+						"name": "米家扫地机器人",
+            			"status": false,
+						"img_url": "../img/robot.png"
+					}
+				]
+			}
+		]
+	}
+}

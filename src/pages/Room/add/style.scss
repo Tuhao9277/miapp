@@ -1,0 +1,21 @@
+.am-tab-bar-bar{
+  height: 70px;
+  .am-tab-bar-tab{
+    width: auto;
+    height: 100%;
+    flex: none;
+    position: relative;
+    .am-tab-bar-tab-icon{
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+    .am-tab-bar-tab-title{
+      font-size: 30px;
+    }
+  }
+}
+.am-tabs-pane-wrap{
+  margin-top: 20px;
+  background: #fff;
+}

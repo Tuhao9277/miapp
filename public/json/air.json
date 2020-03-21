@@ -1,0 +1,10 @@
+{
+    "code":0,
+    "msg":"成功",
+    "data":{
+        "temperature":24,
+        "airscene":1,
+        "status":"true",
+        "windspeed":"低"
+    }
+}

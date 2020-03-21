@@ -1,0 +1,20 @@
+.equipment{
+  padding-bottom: 80px;
+  >p {
+    font-size: .36rem;
+    padding: 0 0 30px 21px;
+    font-weight: 600;
+
+  }
+  .equip_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 20px;
+    .equip_contain{
+      width: 49%;
+    }
+  }
+}

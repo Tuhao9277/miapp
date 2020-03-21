@@ -1,0 +1,2 @@
+export const CHANGE_STATUS = 'CHANGE_STATUS'
+export const GET_LIST_DATA = 'GET_LIST_DATA'

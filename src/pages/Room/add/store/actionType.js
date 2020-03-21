@@ -1,0 +1,1 @@
+export const GET_TYPELIST = 'GET_TYPELIST'

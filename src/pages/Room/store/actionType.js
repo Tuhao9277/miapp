@@ -1,0 +1,2 @@
+export const GET_ROOM_EQUIP = 'GET_ROOM_EQUIP'
+export const UPDATE_ROOM_EQUIP = 'UPDATE_ROOM_EQUIP'

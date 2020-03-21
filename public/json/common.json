@@ -1,0 +1,37 @@
+{
+    "code":0,
+    "msg":"成功",
+    "data":{
+        "equipment":[
+        {
+            "equid":1001,
+            "type":"air",
+            "name":"客厅空调",
+            "status":true,
+            "img_url":"/img/air.png",
+            "temp":"26°"
+        },
+        {
+            "equid":2001,
+            "type":"light",
+            "name":"客厅吊灯",
+            "img_url":"/img/light.png",
+            "status":true
+        },
+        {
+            "equid":4001,
+            "type":"robot",
+            "name":"扫地机器人",
+            "img_url":"/img/robot.png",
+            "status":false
+        },
+        {
+            "equid":3001,
+            "type":"clean",
+            "name":"空气净化器",
+            "img_url":"/img/pm.png",
+            "status":true
+        }
+    ]
+    }
+}

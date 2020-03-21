@@ -1,0 +1,7 @@
+{
+    "code":2,
+    "msg":"成功",
+    "data":{
+        "validatecode":"1234"
+    }
+}

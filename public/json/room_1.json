@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "equid": 1001,
+            "type": "air",
+            "name": "空调",
+            "img_url": "/img/air.png",
+            "status": true,
+            "temp": "26"
+        },
+        {
+            "equid": 2001,
+            "type": "light",
+            "name": "吊灯",
+            "img_url": "/img/light.png",
+            "status": true
+        },
+        {
+            "equid": 3001,
+            "type": "clean",
+            "name": "空气净化器",
+            "img_url": "/img/pm.png",
+            "status": true
+        }
+    ]
+}

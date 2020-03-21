@@ -1,0 +1,5 @@
+export const GET_EQUIP = 'GET_EQUIP'
+export const GET_DATA = 'GET_DATA'
+export const CHANGE_TAB = 'CHANGE_TAB'
+export const GET_WEATHER_DATA = 'GET_WEATHER_DATA'
+export const UPDATE_EQUIP = 'UPDATE_EQUIP'

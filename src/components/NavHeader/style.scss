@@ -1,0 +1,31 @@
+.nav{
+    @include center;
+    width: 100%;
+    height: 128px;
+    background-color: #27BA8B;
+    .title{
+        font-size: 36px;
+        line-height: 128px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+
+    }
+    .black{
+        color: #000;
+    }
+    .back-icon{
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        left: 20px;
+        background-image: url('./img/back.png');
+        background-size: cover;
+        &.icon-white{
+            background-image: url('./img/back-white.png');
+        }
+    }
+}
+.white{
+    background: #fff;
+}

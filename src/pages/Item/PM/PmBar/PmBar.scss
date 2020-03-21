@@ -1,0 +1,50 @@
+.pm-bar{
+
+    width: 100%;
+    height: 98px;
+    display: flex;
+    background:rgba(23,187,138,1);
+    .btn-item{
+        flex: 1;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        @include columnCenter;
+        color: #fff;
+        .btn-name{
+            font-weight: 300;
+        }
+        .tab-icon{
+            margin: 0 auto;
+            margin-bottom: 10px;
+            width: 36px;
+            height: 32px;
+            background-size: cover;
+        }
+        &.off{
+            .tab-icon{
+                background-image: url('./../img/off.png')
+            }
+        }
+        &.auto{
+            .tab-icon{
+                background-image: url('./../img/auto.png')
+            }
+        }
+       
+        &.sleep{
+       
+            .tab-icon{
+                background-image: url('./../img/sleep.png')
+            }
+        }
+        &.favor{
+            .tab-icon{
+                background-image: url('./../img/favor.png')
+            }
+        }
+    }
+}
+.pm-active{
+    background: #017453;
+}

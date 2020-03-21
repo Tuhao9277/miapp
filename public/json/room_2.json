@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "equid":1002,
+            "type":"air",
+            "name":"空调",
+            "img_url":"/img/air.png",
+            "status":true,
+            "temp":"30"
+        },
+        {
+            "equid":2002,
+            "type":"light",
+            "name":"吊灯",
+            "img_url":"/img/light.png",
+            "status":false
+        }
+    ]
+}

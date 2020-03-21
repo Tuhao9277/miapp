@@ -1,0 +1,25 @@
+.option{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  float: left;
+  img{
+    display: block;
+    width: 106px;
+    height: 106px;
+    background: #ddd;
+    position: absolute;
+    top: 50px;
+    left: 72px;
+  }
+  .subName{
+    display: block;
+    max-width: 147px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 1px;
+    left: 22%;
+    text-align: center;
+    color: #000000;
+  }
+}

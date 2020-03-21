@@ -1,0 +1,95 @@
+.color-wrapper{
+    height: 100vh;
+    overflow: hidden;
+    @include columnTop;
+    position: relative;
+}
+.color-menu{
+    background: #fff;
+    flex: 1;
+    width: 100%;
+    @include columnCenter;
+}
+.light-progress{
+    width: 100%;
+    flex: 3;
+    padding-left: .3rem;
+    @include center;
+
+}
+.colorPicker{
+    flex: 1;
+    width: 360px;
+}
+.circle-picker{
+
+    width: 360px !important;
+    height: 220px !important;
+}
+.light-mode{
+    width: 300px;
+    flex: 0 0 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #9e9e9e;
+    .light-mode-item{
+
+        &.light-mode-active{
+            color: #000;
+            font-size: 36px;
+            font-weight: 600;
+            
+        }
+    }
+}
+.switch{
+
+    flex: 1;
+    width: 300px;
+}
+.light-text{
+    width: 1rem;
+    height: 1rem;
+    @include absCenter;
+    @include center;
+    color: #fff;
+    font-size: 48px;
+    user-select: none;
+    z-index: 111;
+}
+.hide-menu{
+    display: none;
+}
+.sub-menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+.light-power{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    @include center;
+    transition: background .2s linear;
+    &.on{
+        background: #17bb8a;
+        .power-icon{
+            @include bg-image('./img/power');
+            width: .5rem;
+            height: .5rem;
+            background-size: cover;
+        }
+    }
+    &.off{
+        background: #fff;
+        box-shadow: 0 0.09rem 0.21rem 0.06rem rgba(46, 79, 69, 0.08);
+        .power-icon{
+            background-image: url('./img/power-off.png');
+            width: .5rem;
+            height: .5rem;
+            background-size: cover;
+        }
+    }
+}
